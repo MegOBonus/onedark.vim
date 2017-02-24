@@ -395,20 +395,13 @@ call s:h("rubyRegexpDelimiter", { "fg": s:cyan})
 call s:h("rubyStringDelimiter", { "fg": s:green})
 call s:h("rubySymbol", { "fg": s:cyan})
 
-" Sass
-call s:h("sassAmpersand", { "fg": s:red })
-call s:h("sassClass", { "fg": s:dark_yellow })
-call s:h("sassControl", { "fg": s:purple })
-call s:h("sassExtend", { "fg": s:purple })
-call s:h("sassFor", { "fg": s:white })
-call s:h("sassFunction", { "fg": s:cyan })
-call s:h("sassId", { "fg": s:blue })
-call s:h("sassInclude", { "fg": s:purple })
-call s:h("sassMedia", { "fg": s:purple })
-call s:h("sassMediaOperators", { "fg": s:white })
-call s:h("sassMixin", { "fg": s:purple })
-call s:h("sassMixinName", { "fg": s:blue })
-call s:h("sassMixing", { "fg": s:purple })
+" Scss
+call s:h("scssExtend", { "fg": s:purple })
+call s:h("scssImport", { "fg": s:purple })
+call s:h("scssInclude", { "fg": s:purple })
+call s:h("scssMixin", { "fg": s:purple })
+call s:h("scssSelectorName", { "fg": s:dark_yellow })
+call s:h("scssVariable", { "fg": s:purple })
 
 " TypeScript
 call s:h("typescriptReserved", { "fg": s:purple })
